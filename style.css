@@ -1,0 +1,142 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-rounded-nusx-med/css/alk-rounded-nusx-med.min.css");
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: "ALK Rounded Nusx Med", sans-serif;
+    background-image: url(https://wallpaperaccess.com/full/81246.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    width: 1500px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.saert{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    margin-top: 250px;
+    
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: none;
+}
+.title h1{
+    margin-top: 25px;
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    
+   
+}
+
+
+
+.box p{
+    font-size: 20px;
+    font-weight: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: #faebd75c;
+    border-radius: 10px;
+    border: 1px solid antiquewhite;
+}
+
+
+  
+
+.name{
+    width: 51%;
+    height: 30px;
+    border: 1px solid antiquewhite;
+    border-radius: 10px;
+    margin: 20px 0;
+    background-color: #faebd75c;
+}
+.email{
+    width: 51%;
+    height: 30px;
+    border: 1px solid antiquewhite;
+    border-radius: 10px;
+    margin: 20px 0;
+    background-color: #faebd75c;
+  
+}
+
+.sub{
+    width: 51%;
+    height: 30px;
+    border: 1px solid antiquewhite;
+    border-radius: 10px;
+    margin: 20px 0;
+    background-color: #faebd75c;
+    
+}
+
+.row{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.area{
+   display: flex;
+   flex-wrap: wrap;
+   position: absolute;
+   right: 5px;
+   width: 45%;
+   background-color: #faebd75c;
+   border-radius: 10px;
+   margin: 25px 1px;
+   border: 1px solid antiquewhite;
+    
+    
+}
+
+.name::placeholder{
+    color: rgb(7, 7, 7);
+    padding: 5px;
+
+}
+
+.email::placeholder{
+    color: rgb(7, 7, 7);
+    padding: 5px;
+}
+
+
+.sub::placeholder{
+    color: rgb(7, 7, 7);
+    padding: 5px;
+}
+
+.area::placeholder{
+    color: rgb(7, 7, 7);
+    padding: 5px;
+}
+
+button{
+margin-left: 55%;
+padding: 20px;
+background-color: #000000fb;
+color: rgb(248, 245, 245);
+border: 1px solid antiquewhite;
+border-radius: 10px;
+}
